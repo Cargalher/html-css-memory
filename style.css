@@ -1,3 +1,4 @@
+/*Main rules*/
 /**{
     box-sizing: border-box;
     margin: 0;
@@ -8,6 +9,9 @@
     display: table;
     clear: both;
 }*/
+/*Main rules*/
+
+/*Main*/
 .container{
     background-color: rgb(102, 190, 231);
     /*height: 1000px;*/
@@ -36,6 +40,8 @@ h1{
       border-radius: 1rem;
       
   }
+  /*Main*/
+  /*Footer*/
   h2{
       text-align: center;
   }
