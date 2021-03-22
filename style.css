@@ -42,12 +42,8 @@ h1{
       height: 70%;
       border-radius: 1rem;
       background-color: white;
-      display: none;
-      
-      
+      display: none;  
   }
-  
-
   .pattern:hover .carta{
    display: block;
   }
@@ -60,6 +56,21 @@ h1{
 }
 .writting, .bike{
     color: rgb(34, 81, 180);
+}
+.writting, .submarine{
+    color: rgb(176, 197, 81);
+}
+.writting, .air_balloon{
+    color: rgb(187, 31, 192);
+}
+.writting, .cruise{
+    color: rgb(83, 155, 87);
+}
+.writting, .tractor{
+    color: rgb(182, 131, 55);
+}
+.writting, .tram{
+    color: rgb(7, 17, 39);
 }
   /*Main*/
   /*Footer*/
