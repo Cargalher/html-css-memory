@@ -13,7 +13,7 @@
 
 /*Main*/
 .container{
-    background-color: rgb(102, 190, 231);
+    background-color: rgb(161, 206, 228);
     width: 1600px;
     position: relative;
     margin: auto;
@@ -40,13 +40,13 @@ h1{
       
   }
   .carta{
-      width: 100%;
-      height: 70%;
-      border-radius: 1rem;
-      background-color: white;
-      display: none;  
-     
-      
+    width: 100%;
+    height: 70%;
+    border-radius: 1rem;
+    background-color: white;
+    display: none;  
+    position: relative;
+    top: 40px; 
   }
   .pattern:hover .carta{
    display: block;
