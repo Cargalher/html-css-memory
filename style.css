@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }*/
+/*.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}*/
 .container{
     background-color: rgb(102, 190, 231);
     height: 1000px;
@@ -18,3 +23,10 @@ h1{
     position: relative;
     top: 50px;
 }
+.pattern {
+  
+  
+  
+  .row{
+      
+  }
