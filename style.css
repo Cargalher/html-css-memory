@@ -1,9 +1,9 @@
 /*Main rules*/
-/**{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}*/
+}
 .clearfix::after{
     content: "";
     display: table;
@@ -14,10 +14,12 @@
 /*Main*/
 .container{
     background-color: rgb(102, 190, 231);
-    width: 2000px;
+    width: 1600px;
     position: relative;
     margin: auto;
+    
 }
+
 h1{
     text-transform: uppercase;
     color: white;
@@ -43,33 +45,37 @@ h1{
       border-radius: 1rem;
       background-color: white;
       display: none;  
+     
+      
   }
   .pattern:hover .carta{
    display: block;
   }
+
 .writting{
     position: absolute;
     text-align: center;
     font-family: 'Nerko One', cursive;
     font-size: 50px;
     
+    
 }
-.writting, .bike{
+.writting.bike{
     color: rgb(34, 81, 180);
 }
-.writting, .submarine{
+.writting.submarine{
     color: rgb(176, 197, 81);
 }
-.writting, .air_balloon{
+.writting.air_balloon{
     color: rgb(187, 31, 192);
 }
 .writting, .cruise{
     color: rgb(83, 155, 87);
 }
-.writting, .tractor{
+.writting.tractor{
     color: rgb(182, 131, 55);
 }
-.writting, .tram{
+.writting.tram{
     color: rgb(7, 17, 39);
 }
   /*Main*/
