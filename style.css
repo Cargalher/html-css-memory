@@ -10,7 +10,7 @@
 }*/
 .container{
     background-color: rgb(102, 190, 231);
-    height: 1000px;
+    /*height: 1000px;*/
     width: 2000px;
     position: relative;
     margin: auto;
@@ -35,4 +35,7 @@ h1{
       max-height: 100%;
       border-radius: 1rem;
       
+  }
+  h2{
+      text-align: center;
   }
