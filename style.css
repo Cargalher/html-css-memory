@@ -44,6 +44,7 @@ h1{
       background-color: white;
       display: none;
       
+      
   }
   
 
@@ -53,6 +54,12 @@ h1{
 .writting{
     position: absolute;
     text-align: center;
+    font-family: 'Nerko One', cursive;
+    font-size: 50px;
+    
+}
+.writting, .bike{
+    color: rgb(34, 81, 180);
 }
   /*Main*/
   /*Footer*/
