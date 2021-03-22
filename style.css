@@ -17,9 +17,7 @@
     width: 1600px;
     position: relative;
     margin: auto;
-    
 }
-
 h1{
     text-transform: uppercase;
     color: white;
@@ -37,32 +35,30 @@ h1{
     background-image: url(img/pattern.png);
     border-radius: 1rem;
     cursor: pointer;
-
+    position: relative;
     
-      
+    
   }
   .carta{
     width:100%;
     height: 70%;
     border-radius: 1rem;
     background-color: white;
-    display: none;  
+    display: none; 
     position: relative;
     top: 40px; 
+    
   }
   .pattern:hover .carta{
    display: block;
-   
-   
   }
-
+  
 .writting{
     position: absolute;
-    top:
-    text-align: center;
+    left: 50px;
+    bottom: 20px;
     font-family: 'Nerko One', cursive;
     font-size: 50px;
-    
 }
 
 .writting.bike{
