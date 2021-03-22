@@ -5,5 +5,11 @@
 }*/
 .container{
     background-color: rgb(102, 190, 231);
+    height: 1000px;
+    width: 1500px;
+    position: relative;
     margin: auto;
+}
+h1{
+    
 }
